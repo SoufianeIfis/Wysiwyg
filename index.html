@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>My WYSIWYG</title>
+</head>
+
+<body>
+	<textarea></textarea>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="my_wysiwyg.js"></script>
+	<script>
+	$(document).ready(function() {
+		$(function() {
+			$("textarea").my_wysiwyg();
+		});
+	});
+	</script>
+</body>
+</html>
